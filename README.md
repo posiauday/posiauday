@@ -1,37 +1,20 @@
 <div align="center">
 
-<h3><code>uday@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
+<img src="./contrib-heatmap.svg" width="100%" alt="Contribution activity: last 26 weeks plus past-year stats" />
 
 <br><br>
 
-<h3><code>uday@github ~ $ whoami</code></h3>
-<table>
-  <tr>
-    <td valign="top"><img src="./ascii-portrait.svg" width="370" alt="ASCII portrait of Uday" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="neofetch-style info card" /></td>
-  </tr>
-</table>
+<img src="./whoami.svg" width="100%" alt="whoami: Uday Posia, Power Platform and low-code builder. Building free Power Apps components, Pulse KPI and Pulse Gantt custom visuals for Power BI, PPUniverse, tiffinOS and live-tryon-extension." />
 
-<br>
+<br><br>
 
-<h3><code>uday@github ~ $ ls ~/open-source</code></h3>
-<table>
-  <tr>
-    <td width="430" valign="top">
-      <a href="https://github.com/posiauday/power-apps-components"><b><code>power-apps-components/</code></b></a><br>
-      Free copy-paste Power Apps components from LowCodeStacks. MIT licensed.
-    </td>
-    <td width="430" valign="top">
-      <a href="https://github.com/posiauday/linkedin-automation"><b><code>linkedin-automation/</code></b></a><br>
-      Daily LinkedIn posts on autopilot with Claude, DALL·E and GitHub Actions.
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/posiauday/power-apps-components"><img src="./card-power-apps-components.svg" width="49%" alt="power-apps-components: free copy-paste Power Apps components (MIT)" /></a>
+<a href="https://github.com/posiauday/linkedin-automation"><img src="./card-linkedin-automation.svg" width="49%" alt="linkedin-automation: daily LinkedIn posts with Claude, DALL·E and GitHub Actions" /></a>
 
-<br>
+<br><br>
 
-<h3><code>uday@github ~ $ open lowcodestacks.com</code></h3>
-<a href="https://www.lowcodestacks.com"><code>🌐 lowcodestacks.com</code></a>
+<a href="https://www.lowcodestacks.com"><code>🌐 lowcodestacks.com</code></a>&nbsp;&nbsp;
+<a href="https://www.instagram.com/uday.posia/"><code>📸 @uday.posia</code></a>&nbsp;&nbsp;
+<a href="https://github.com/posiauday/power-apps-components"><code>⭐ star the components</code></a>
 
 </div>

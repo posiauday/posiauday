@@ -1,4 +1,4 @@
-"""Convert source-prepped.png into a self-typing monochrome ASCII SVG.
+"""ASCII portrait engine: grid() is used by make_whoami_svg.py. Run alone for a standalone SVG.
 
     python scripts/make_ascii_svg.py          # writes ascii-portrait.svg
     STATIC=1 python scripts/make_ascii_svg.py # frozen frame (no animation)
@@ -30,14 +30,14 @@ INVERT = os.environ.get("INVERT", "0") == "1"
 GAMMA = float(os.environ.get("GAMMA", "1.0"))
 
 
-def grid() -> list[str]:
+def grid(cols: int = COLS) -> list[str]:
     img = Image.open(ROOT / "source-prepped.png").convert("L")
     mask_path = ROOT / "source-mask.png"
     mask = Image.open(mask_path).convert("L") if mask_path.exists() else None
     w, h = img.size
-    rows = round(COLS * (h / w) * (CHAR_W / LINE_H))
-    g = np.asarray(img.resize((COLS, rows), Image.LANCZOS), dtype=np.float32) / 255.0
-    m = (np.asarray(mask.resize((COLS, rows), Image.LANCZOS), dtype=np.float32) / 255.0
+    rows = round(cols * (h / w) * (CHAR_W / LINE_H))
+    g = np.asarray(img.resize((cols, rows), Image.LANCZOS), dtype=np.float32) / 255.0
+    m = (np.asarray(mask.resize((cols, rows), Image.LANCZOS), dtype=np.float32) / 255.0
          if mask else (g < 0.97).astype(np.float32))
     # stretch contrast using only the subject's pixels
     inside = g[m >= 0.35]
@@ -50,7 +50,7 @@ def grid() -> list[str]:
     lines = []
     for y in range(rows):
         chars = []
-        for x in range(COLS):
+        for x in range(cols):
             if m[y, x] < 0.35:
                 chars.append(" ")
                 continue

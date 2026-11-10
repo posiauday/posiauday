@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="150" viewBox="0 0 420 150" role="img" aria-label="linkedin-automation: Daily LinkedIn posts on autopilot with Claude, DALL·E and GitHub Actions.">
+
+<rect x=".5" y=".5" width="419" height="149" rx="10" fill="#0d1117" stroke="#30363d"/>
+<path d="M.5 10.5a10 10 0 0 1 10-10h399a10 10 0 0 1 10 10v20h-419z" fill="#161b22"/>
+<line x1=".5" y1="30.5" x2="419.5" y2="30.5" stroke="#30363d"/>
+<circle cx="20" cy="15.0" r="5.5" fill="#ff5f57"/><circle cx="38" cy="15.0" r="5.5" fill="#febc2e"/><circle cx="56" cy="15.0" r="5.5" fill="#28c840"/>
+<text x="210.0" y="19.0" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5">~/linkedin-automation</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace"><text x="20" y="60" font-size="15" font-weight="700" fill="#58a6ff">linkedin-automation/</text><text x="20" y="86" font-size="12.5" fill="#c9d1d9">Daily LinkedIn posts on autopilot with Claude,</text><text x="20" y="105" font-size="12.5" fill="#c9d1d9">DALL·E and GitHub Actions.</text></g><g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#8b949e"><circle cx="25" cy="130" r="5" fill="#3572A5"/><text x="35" y="134">Python</text><text x="96.2" y="134">★ 0</text><text x="156.2" y="134">⑂ 0</text><text x="400" y="134" text-anchor="end" fill="#58a6ff">open →</text></g>
+</svg>
