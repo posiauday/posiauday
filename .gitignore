@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+source-prepped.png
+source-mask.png
+preview.html

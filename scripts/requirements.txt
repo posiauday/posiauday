@@ -1,0 +1,8 @@
+requests==2.32.3
+beautifulsoup4==4.12.3
+# portrait-only (not needed by the daily workflow):
+pillow
+numpy
+# optional extras for prep_photo.py (used automatically if installed):
+# opencv-python   -> CLAHE local contrast
+# rembg           -> background removal for photos without transparency
